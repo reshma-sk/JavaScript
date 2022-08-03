@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Meals For Your Ingredient</title>
+    
+   <!-- <script src="https://use.fontawesome.com/8b97963ffb.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" 
+    integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find Your Food</h2>
+                <blockquote>Eat Good....Feel Good....
+                </blockquote>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control"
+                    placeholder="Enter an item" id=
+                    "search-input">
+                    <button type="submit" class="search-btn btn" id=
+                    "search-btn">
+                   
+                    <i class="fas fa-search"></i>
+                </button>
+                 
+                </div>
+            </div>
+            <div class="meal-result">
+                <h2 class="title">Your Search Results</h2>
+                <div id="meal">
+                </div>
+            </div>
+
+
+           <div class="meal-details">
+       
+            <button type="button" class="btn recipe-close-btn"
+            id="recipe-close-btn">
+        <i class="fas fa-times"></i>
+        </button>
+
+     >
+        <div class="meal-details-content">
+           </div>
+           </div> 
+        </div>
+    </div>
+   <script src="recipe.js"></script> 
+</body>
+</html>
