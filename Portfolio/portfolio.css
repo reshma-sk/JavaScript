@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+ul.navbar{
+  
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #333;
+      
+}
+ul.navbar li {
+ float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 10rem;
+  font-size: 1.2rem;
+}
+
+ul.navbar li a:hover{
+    background-color: #808080;
+   
+}
+.row{
+    display: block;
+    margin-top: 3rem;
+    width: 100%;
+    height: 250px;
+    background-color: #333;
+    color: #fff;
+}
+.home{
+    width: 50%;
+    display: block;
+  text-align: center;
+  float: left;
+  margin-top: 4rem;
+  font-family: 'poppin',serif;
+  font-weight:lighter;
+}
+.home p{
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+.home a{
+    background-color: #333;
+    color: #fff;
+   text-decoration: none;
+   
+}
+.hmimg{
+    width: 50%;
+    float: left;
+    display: block;
+    margin-top: 4rem;
+    
+}
+img{
+    width: 150px;
+    height: 186px;
+}
+.about{
+    display: block;
+    background-color: #333;
+    width: 100%;
+    text-align:justify;
+    margin-top: 5rem;
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.about p{
+    margin: 1.5rem;
+}
+.skills{
+    display: block;
+    background-color: #333;
+    width: 50%;
+    text-align:center;
+    margin-top: 1rem;
+    color: #fff;
+  padding: 2rem;
+    font-size: 1.2rem;
+    float: left;
+}
+.skills p{
+    margin: 10px;
+}
+
+ .wrkimg{
+    width: 50%;
+  float: left;
+    display: block;
+   margin-top: 5rem;
+}
+.myimg{
+    height: 158px;
+    width: 250px;
+}
+.contact{
+    display: block;
+    background-color: #333;
+    width: 100%;
+    text-align:center;
+    margin-top: 5rem;
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+.contact p{
+    margin: 10px;
+}
+.project{
+    background-color: #333;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 2rem;
+}
+.project a{
+    margin: 2rem;
+    font-size:large;
+    color: white;
+    display: block;
+}
+@media screen and (max-width: 600px) {
+  
+    ul.navbar li {
+        float: none;
+    }
+    .about{
+        width: 100%;
+    }
+    
+    
+    .contact{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+    }
+    .project{
+        width: 100%;
+    }
+  }
