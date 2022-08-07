@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg : rgb(51, 140, 163);
+}
+.container{
+    min-height: 100vh;
+}
+body{
+font-family: 'poppin',cursive;
+color:white
+}
+.title{
+    color: #fff;
+    display: block;
+    margin: 1px auto;
+    width: 40%;
+}
+.search-control,
+.search-btn{
+    width: 100%;
+  
+}
+.search-btn{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: var(--bg);
+    color: #fff;
+  border: none;
+  font-size: 1.8rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+.search-control{
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: none;
+    border: 1px solid var(--bg);
+    font-size: 1.2rem;
+color: var(--bg);
+    padding: 0 2rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    
+}
+.search-control::placeholder{
+    color: var(--bg);
+}
+.search{
+    margin: 2rem 0;
+    display: flex;
+    align-items: stretch;
+
+}
+.result{
+    display: block;
+    width: 600px;
+    border: 1px solid white;
+    margin: 2rem auto;
+    height: 500px;
+    background-color: var(--bg);
+    background-image: url('/end1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 2rem 5px;
+}
+.box{
+    display: block;
+    width: 80%;
+    margin: auto;
+  
+    margin-top: 2rem;
+    height: 400px;
+}
+.content{
+    display: block;
+ margin: 6rem auto;
+    width: 100%;
+    height: 50%;
+    color: black;
+    opacity: 0.7;
+}
+
+.content h2{
+    
+    text-align:justify;
+    margin: 1rem;
+}
+@media screen and (min-width: 600px) {
+    .search{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .result{
+       width: 100%;
+    }
+}
+
+
