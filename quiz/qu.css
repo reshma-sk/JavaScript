@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --tenne-tawny:#d65108;
+    --tenne-tawny-dark:#b54507;
+}
+body{
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family:'poppins','Gill Sans';
+
+}
+
+.quest-containr{
+    width: 50%;
+    padding: 3rem;
+    font-size: 2rem;
+    display: block;
+    margin: 3rem auto;
+    color: var(--tenne-tawny);
+   
+    
+}
+.ans-container{
+    display: block;
+    width:80%;
+    margin: 3rem auto;
+    height: 200px;
+    margin-top: 1rem;
+    
+    
+}
+.option{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: var(--tenne-tawny);
+    border: none;
+   display: inline;
+   margin: 1rem;
+   margin-top: 4rem;
+}
+/*#op2{
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    color: var(--tenne-tawny);
+    border: none;
+   margin-top: 1rem;
+    margin-left: 10rem;
+}
+#op3{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: var(--tenne-tawny);
+    border: none;
+    margin-left: 10px;
+    margin-top: 4rem;
+}
+    
+
+#op4{
+    font-size: 1.5rem;
+  margin-top: 1rem;
+margin-left: 10rem;
+    padding: 0.4rem;
+    color: var(--tenne-tawny);
+    border: none;
+   
+}*/
+#prev{
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    /* margin-left: 6px; */
+
+    color: var(--tenne-tawny);
+margin-left: 5rem;
+}
+
+#next{
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+  margin-left: 2rem;
+    color: var(--tenne-tawny);
+
+    display: block;
+    float: left;
+}
+#reset{
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+   margin-left: 2rem;
+
+    color: var(--tenne-tawny);
+    display: block;
+    float: left;
+}
+.submit .sub{
+ display: block;
+ margin-left:40rem;
+ font-size: 1.5rem;
+ padding: 12px;
+ border: none;
+ color: var(--tenne-tawny);
+ border-radius: 2rem;
+ -webkit-border-radius: 2rem;
+ -moz-border-radius: 2rem;
+ -ms-border-radius: 2rem;
+ -o-border-radius: 2rem;
+}
+.navigate .nav{
+float: left;
+
+}
+ .navigate{
+    height: 50px;
+    display: block;
+    width: 500px;
+    margin-left: 15rem;
+    margin-top: 5rem;
+ }
+ 
+ @media screen and (max-width:600px) {
+    .ans-container{
+       
+        height: auto;
+    }
+    .option{
+        display:block
+    }
+ }
+ 
+ @media screen and (min-width:600px) {
+    .ans-container{
+       
+        height: auto;
+    }
+    .option{
+        display: block;
+       
+    }
+ }
+ @media screen and (min-width:768px) {
+    .ans-container{
+        height: auto;
+        
+    }
+    .option{
+        display: block;
+    }
+ }
+ @media screen and (min-width:912px) {
+    .ans-container{
+        width: auto;
+        
+    }
+    .option{
+        display: inline;
+    }
+ }
